@@ -50,3 +50,6 @@ print ("Python \n 3.7")
 
 print (""" Python
 3.7 """)
+
+# %%
+
