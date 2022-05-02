@@ -30,3 +30,14 @@ type(True)
 
 value = True
 print(value)
+
+# %%
+x = '1323435'
+y = 12334
+z = 'O'
+
+print('x: {}'.format(type(x)))
+print('y: {}'.format(type(y)))
+print('z: {}'.format(type(z)))
+
+print('x: {0}\ny: {1}\nz: {2}'.format(type(x), type(y), type(z)))
