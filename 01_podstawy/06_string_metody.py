@@ -9,18 +9,18 @@ text = 'Witaj na kursie Pythona.\nPython jest wspaniały.'
 
 print(text)
 
-# %%
-dir(text)
+# %%text = 'Witaj na kursie Pythona.\nPython jest wspaniały.'
+print(dir(text))
 help(str.count)
 
 # %%
-text.capitalize()
+print(text.capitalize())
 
 # %%
-text.title()
+print(text.title()
 
 # %%
-text.count('Python')
+print(text.count('Python'))
 
 # %%
 text.startswith('kurs')
@@ -38,7 +38,7 @@ text.endswith('y.')
 'sample.png'.endswith('.png')
 
 # %%
-text.find('Python')
+print(text.find('Python'))
 text[text.find('Python'):]
 
 # %%
@@ -84,8 +84,12 @@ hashtags[:idx]
 '12'.zfill(5)
 '1'.zfill(10)
 
+# %%
+text2 = "#".join(['sport', 'python', 'free', 'time'])
+print(text2)
 
-
+x = '123,785,45,5'
+print(x.split(','))
 
 
 
