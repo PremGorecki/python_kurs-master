@@ -6,7 +6,7 @@
 """
 
 empty_set = set()
-print(empty_set)
+print('a', empty_set, 'b')
 print(type(empty_set))
 
 # %%
@@ -55,5 +55,11 @@ A.symmetric_difference(B)
 
 D = A.copy()
 
-
-
+# %%
+x = 'Programowanie w języku Python - od A do Z'
+x=x.lower()
+x=x.replace(' ', '')
+x=x.replace('-', '')
+x=x.replace('ę', 'e')
+x=x.replace('ć', 'c')
+print(len(set(x)))
